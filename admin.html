@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Dashboard</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Manage Movies</h2>
+    <div id="adminMoviesList">
+    </div>
+    <form id="adminMovieForm">
+      <label for="movieTitle">Title:</label>
+      <input type="text" id="movieTitle" required>
+      <label for="movieGenre">Genre:</label>
+      <input type="text" id="movieGenre" required>
+      <label for="movieDate">Release Date:</label>
+      <input type="date" id="movieDate" required>
+      <button type="submit">Add Movie</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; BigScreen Botique</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
